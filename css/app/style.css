@@ -1,0 +1,11 @@
+.nav-link{
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 2vw;
+}
+
+.nav-link:hover{
+    background-color: #f30505;
+    transition: 0.4s ease-in;
+}
