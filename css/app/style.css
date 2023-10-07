@@ -1,5 +1,14 @@
-.nav-link{
+.uppercase{
     text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.nav-link{
+    display: inline-block;
+    margin: 0 auto;
     font-size: large;
     font-weight: bold;
     padding-left: 2vw;
@@ -8,4 +17,9 @@
 .nav-link:hover{
     background-color: #f30505;
     transition: 0.4s ease-in;
+}
+
+.bannergde{
+    list-style-type: none;
+
 }
