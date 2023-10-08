@@ -1,25 +1,48 @@
 .uppercase{
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .lowercase{
     text-transform: lowercase;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .nav-link{
-    display: inline-block;
-    margin: 0 auto;
     font-size: large;
     font-weight: bold;
     padding-left: 2vw;
 }
 
 .nav-link:hover{
+    margin: 0 auto;
     background-color: #f30505;
     transition: 0.4s ease-in;
 }
 
-.bannergde{
-    list-style-type: none;
+.banner{
+    text-align: center;
+}
+.banner .btn{
+    font-size: larger;
+}
+.banner .azul{
+    background-color: #01579B;
+}
+.banner .amarelo{
+    background-color: #ff9900b6;
+}
+.banner .verde{
+    background-color: #4CAF50;
+}
 
+.banner .card-title{
+    font-size: 6.9rem;
+}
+.banner .card-subtitle{
+    font-size: 1.3rem;
 }
