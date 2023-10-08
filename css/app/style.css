@@ -56,10 +56,39 @@ a{
 .banner .verde{
     background-color: #4caf4fb9;
 }
-
 .banner .card-title{
     font-size: 6.9rem;
 }
 .banner .card-subtitle{
     font-size: 1.3rem;
+}
+
+main .banner{
+    width: 17rem;
+    text-align: left;
+}
+main .banner .card-title{
+    margin-right: 39%;
+    padding-left: 6%;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+main .banner .noticias{
+    background-color: #2196F3;
+}
+main .banner .eventos{
+    background-color: #E91E63;
+}
+main .banner .diversos{
+    background-color: #4caf4fb9;
+}
+main .banner .oktoberfest{
+    background-color: #ff9900b6;
+}
+main .banner .card-footer, main .banner .btn{
+    margin: 0 auto;
+    padding-top: 23%;
+    font-weight: bold;
+    text-transform: uppercase;
 }
