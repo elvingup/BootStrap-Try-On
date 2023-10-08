@@ -85,9 +85,8 @@ main .banner .diversos{
 main .banner .oktoberfest{
     background-color: #ff9900b6;
 }
-main .banner .card-footer, main .banner .btn{
-    margin: 0 auto;
-    padding-top: 23%;
+main .banner .btn{
+    width: 99%;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -107,7 +106,7 @@ footer .row .card{
 .rodape .card-body{
     font-size: 1.2rem;
 }
-.veja li{
+footer ul li{
     text-transform: uppercase;
     list-style:none;
 }
