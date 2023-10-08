@@ -92,3 +92,10 @@ main .banner .card-footer, main .banner .btn{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.rodape{
+    width: 22rem;   
+    margin-top: 15vh;
+    padding: 0;
+    text-align: center;
+}
