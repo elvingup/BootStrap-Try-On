@@ -1,9 +1,14 @@
-.uppercase{
+
+.row{
+    justify-content: space-evenly;
+}
+
+.maiuscula{
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.lowercase{
+.minuscula{
     text-transform: lowercase;
 }
 
@@ -24,8 +29,14 @@ a{
     transition: 0.4s ease-in;
 }
 
-.banner{
+.banner{ 
+    width: 22rem;   
+    margin-top: 15vh;
+    padding: 0;
     text-align: center;
+}
+.banner .grid{
+    row-gap: 0.75rem;
 }
 .banner .btn{
     font-size: larger;
@@ -33,11 +44,17 @@ a{
 .banner .azul{
     background-color: #01579B;
 }
+.banner .vermelho{
+    background-color: #f30505;
+}
+.banner .verdao{
+    background-color: #004D40;
+}
 .banner .amarelo{
     background-color: #ff9900b6;
 }
 .banner .verde{
-    background-color: #4CAF50;
+    background-color: #4caf4fb9;
 }
 
 .banner .card-title{
