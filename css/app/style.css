@@ -12,7 +12,7 @@
     text-transform: lowercase;
 }
 
-a{
+a, .card{
     color: #fff;
     text-decoration: none;
 }
@@ -24,7 +24,6 @@ a{
 }
 
 .nav-link:hover{
-    margin: 0 auto;
     background-color: #f30505;
     transition: 0.4s ease-in;
 }
@@ -93,9 +92,28 @@ main .banner .card-footer, main .banner .btn{
     text-transform: uppercase;
 }
 
+footer .row .card{
+    padding:3%;
+}
 .rodape{
     width: 22rem;   
     margin-top: 15vh;
     padding: 0;
+    text-align: left;
+}
+.rodape h5{
+    font-size: 1.65rem;
+}
+.rodape .card-body{
+    font-size: 1.2rem;
+}
+.veja li{
+    text-transform: uppercase;
+    list-style:none;
+}
+footer aside p{
+    padding:44px 0;
     text-align: center;
+    font-size: larger;
+    color: #fff;
 }
