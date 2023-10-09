@@ -160,5 +160,32 @@ nav .breadcrumb .active {
 .noticias main aside ul li {
     padding: 0 0 2.5rem 1.95rem;
 }
+.noticias main section .grid{
+    margin-bottom: 22vh;
+}
+.noticias main section .grid .card .card-head h3{
+    padding: 0.3rem 1rem;
+    color: #000;
+    background-color: #f8f804;
+}
+.noticias main section .grid .card .card-body .card-text p{
+    padding: 0.3rem 1rem;
+    color:#fff;
+    font-size: 1.25rem;
+}
+.noticias main section .grid .card .card-footer .card-link{
+    padding: 0.3rem 1rem;
+    font-size: 1.333rem;
+    text-transform: capitalize;
+    text-decoration: overline;
+
+}
+.noticias main section .grid .card .card-footer .pag{
+    color: #000;;
+    background-color: #f8f804;
+}
+.noticias main section .grid .card .card-footer .ler{
+    color: #f8f804;
+}
 
 /* NOTÍCIAS WEBPAGE ---------------------------- */
