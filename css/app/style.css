@@ -1,123 +1,143 @@
-
-.row{
+.row {
     justify-content: space-evenly;
 }
 
-.maiuscula{
+.maiuscula {
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.minuscula{
+.minuscula {
     text-transform: lowercase;
 }
 
-a, .card{
+a,
+.card {
     color: #fff;
     text-decoration: none;
 }
 
-.nav-link{
+.nav-link {
     font-size: large;
     font-weight: bold;
     padding-left: 2vw;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: #f30505;
     transition: 0.4s ease-in;
 }
 
-.banner{ 
-    width: 22rem;   
+.banner {
+    width: 22rem;
     margin-top: 15vh;
     padding: 0;
     text-align: center;
 }
-.banner .grid{
+
+.banner .grid {
     row-gap: 0.75rem;
 }
-.banner .btn{
+
+.banner .btn {
     font-size: larger;
 }
-.banner .azul{
+
+.banner .azul {
     background-color: #01579B;
 }
-.banner .vermelho{
+
+.banner .vermelho {
     background-color: #f30505;
 }
-.banner .verdao{
+
+.banner .verdao {
     background-color: #004D40;
 }
-.banner .amarelo{
+
+.banner .amarelo {
     background-color: #ff9900b6;
 }
-.banner .verde{
+
+.banner .verde {
     background-color: #4caf4fb9;
 }
-.banner .card-title{
+
+.banner .card-title {
     font-size: 6.9rem;
 }
-.banner .card-subtitle{
+
+.banner .card-subtitle {
     font-size: 1.3rem;
 }
 
-main .banner{
+main .banner {
     width: 17rem;
     text-align: left;
 }
-main .banner .card-title{
+
+main .banner .card-title {
     margin-right: 39%;
     padding-left: 6%;
     font-size: large;
     font-weight: bold;
     text-transform: capitalize;
 }
-main .banner .noticias{
+
+main .banner .noticias {
     background-color: #2196F3;
 }
-main .banner .eventos{
+
+main .banner .eventos {
     background-color: #E91E63;
 }
-main .banner .diversos{
+
+main .banner .diversos {
     background-color: #4caf4fb9;
 }
-main .banner .oktoberfest{
+
+main .banner .oktoberfest {
     background-color: #ff9900b6;
 }
-main .banner .btn{
+
+main .banner .btn {
     width: 99%;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-footer .row .card{
-    padding:3%;
+footer .row .card {
+    padding: 3%;
 }
-.rodape{
-    width: 22rem;   
+
+.rodape {
+    width: 22rem;
     margin-top: 15vh;
     padding: 0;
     text-align: left;
 }
-.rodape h5{
+
+.rodape h5 {
     font-size: 1.65rem;
 }
-.rodape .card-body{
+
+.rodape .card-body {
     font-size: 1.2rem;
 }
-footer ul li{
+
+footer ul li {
     text-transform: uppercase;
-    list-style:none;
+    list-style: none;
 }
-footer aside p{
-    padding:44px 0;
+
+footer aside p {
+    padding: 44px 0;
     text-align: center;
     font-size: larger;
     color: #fff;
 }
 
-.breadcrumb{
+.breadcrumb {
     margin-left: 8.6rem;
     color: #fff;
     font-size: larger;
@@ -125,7 +145,20 @@ footer aside p{
     font-weight: bolder;
 }
 
+nav .breadcrumb .active {
+    color: yellow;
+}
+
 
 /* NOTÍCIAS WEBPAGE ---------------------------- */
-    
+/* style="list-style: none; margin-bottom: 15vh ;padding:5vh 15vh 0 0.35vw;" */
+.noticias main aside ul{
+    list-style: none;
+    margin-bottom: 2vh;
+    padding: 5vh 15vh 0 0.35vw;
+}
+.noticias main aside ul li {
+    padding: 0 0 2.5rem 1.95rem;
+}
+
 /* NOTÍCIAS WEBPAGE ---------------------------- */
