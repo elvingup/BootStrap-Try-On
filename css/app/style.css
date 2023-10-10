@@ -188,6 +188,9 @@ nav .breadcrumb .active {
 
 
 /* CURRÍCULO WEBPAGE ---------------------------- */
+#curriculo h2{
+    font-size: 3.9rem;
+}
 form .cadastrar{
     margin-top: 8vh;
 }
