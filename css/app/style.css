@@ -188,13 +188,11 @@ nav .breadcrumb .active {
 
 
 /* CURRÍCULO WEBPAGE ---------------------------- */
-form .objetivo option{
-    text-transform: capitalize;
+form .cadastrar{
+    margin-top: 8vh;
 }
 form .btn{
-    color: #000;
     font-weight: bolder;
-    background-color: #f8f804;
     text-transform: uppercase;
 }
 /* CURRÍCULO WEBPAGE ---------------------------- */
