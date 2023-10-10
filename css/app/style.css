@@ -192,6 +192,8 @@ form .cadastrar{
     margin-top: 8vh;
 }
 form .btn{
+    max-width:31rem;
+    min-width: 21rem;
     font-weight: bolder;
     text-transform: uppercase;
 }
