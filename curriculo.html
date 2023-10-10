@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app/style.css">
+    <title>Blumenau Online | Cadastro de Currículo</title>
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expanded-lg bg-success">
+
+        <!-- Logomarca com link para Home -->
+        <a class="navbar-brand col-sm-4" rel="noreferrer noopener" href="index.html" target="_blank">
+            <img src="img/logobnuonline.png" class="float-end" alt="logomarca" width="333vw">
+        </a>
+
+
+        <!-- Menu de links das seções -->
+        <div class="nav col maiuscula">
+            <a class="nav-link link-light" rel="noreferrer noopener" href="index.html" target="_blank">home</a>
+            <a class="nav-link link-light" href="#">empregos</a>
+            <a class="nav-link link-light" href="#">currículos</a>
+            <a class="nav-link link-light" href="#">classificados</a>
+            <a class="nav-link link-light" href="#">blog</a>
+        </div>
+        <!-- Fim do Navbar -->
+    </nav>
+
+    <!-- Bread Crumbs -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a rel="noreferrer noopener" href="index.html" target="_blank">home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">cadastro de currículo</li>
+        </ol>
+    </nav>
+    <!-- FIM do Bread Crumbs -->
+
+    <form class="container">
+        <div class="row col-8 col-4">
+            <fieldset>
+                <legend>Nome Completo</legend>
+                <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Objetivo</legend>
+                <select name="objetivo" >
+                    <option value="">Escolha um Objetivo</option>
+                    <option value="analista de sistemas">
+                        analista de sistemas
+                    </option>
+                    <option value="desenvolvedor backend'">desenvolvedor backend</option>
+                    <option value="desenvolvedor fullstack">desenvolvedor fullstack</option>
+                    <option value="desenvolvedor web">desenvolvedor web</option>
+                    <option value="designer grafico">designer gráfico</option>
+                    <option value="Programador">programador</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="row col-4 col-8">
+            <fieldset>
+                <legend>Cidade</legend>
+                <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>E-mail</legend>
+                <input type="email">
+            </fieldset>
+        </div>
+
+        <div class="row col">
+            <fieldset>
+                <legend>Apresentação / Informação Complementar</legend>
+                <textarea name="apresentacao" cols="30" rows="10"></textarea>
+            </fieldset>
+        </div>
+
+        <div class="row col">
+            <fieldset>
+                <legend>Qualificações</legend>
+                <textarea name="qualificacoes" cols="30" rows="10"></textarea>
+            </fieldset>
+        </div>
+
+        <div class="row col">
+            <fieldset>
+                <legend>Formação</legend>
+                <textarea name="formacao" cols="30" rows="10"></textarea>
+            </fieldset>
+        </div>
+
+        <div class="row col">
+            <fieldset>Experiência</fieldset>
+            <textarea name="experiencia" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">cadastrar</button>
+    </form>
+        
+        <!-- Rodapé -->
+        <footer>
+
+            <!-- .ROW -->
+            <div class="row">
+                <!-- 1 Coluna "Blumenau Online" -->
+                <div class="card rodape">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <h5>Blumenau Online</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-subtitle">
+                            <p>
+                                Um Portal de Oportunidades
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 Coluna "Anuncie conosco" -->
+                <div class="card rodape">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <h5>Anuncie conosco</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <a href="mailto:usuario@exemplo.com">usuario@exemplo.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 Coluna "veja também" -->
+                <div class="card rodape">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <h5>Veja também:</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                                <li><a rel="noreferrer noopener" href="index.html" target="_blank">home</a></li>
+                                <li><a href=" ########### ">empregos</a></li>
+                                <li><a href=" ########### ">currículos </a></li>
+                                <li><a href=" ########### ">classificados</a></li>
+                                <li><a href=" ########### ">blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM de FOOTER .RODAPE .ROW -->
+
+            <aside>
+                <p>
+                    Feito para treinamento de framework Bootstrap pelo Curso de Formação Programador PHP ministrado pelo
+                    Prof. Diego Bracellos.
+                    <span>&copy; 2023</span>
+                </p>
+            </aside>
+        </footer>
+    </div>
+
+</body>
+
+</html>

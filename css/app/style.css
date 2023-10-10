@@ -149,9 +149,7 @@ nav .breadcrumb .active {
     color: yellow;
 }
 
-
 /* NOTÍCIAS WEBPAGE ---------------------------- */
-/* style="list-style: none; margin-bottom: 15vh ;padding:5vh 15vh 0 0.35vw;" */
 .noticias main aside ul{
     list-style: none;
     margin-bottom: 2vh;
@@ -160,8 +158,8 @@ nav .breadcrumb .active {
 .noticias main aside ul li {
     padding: 0 0 2.5rem 1.95rem;
 }
-.noticias main section .grid{
-    margin-bottom: 22vh;
+.noticias main section .grid .card{
+    margin-bottom: 42vh;
 }
 .noticias main section .grid .card .card-head h3{
     padding: 0.3rem 1rem;
@@ -178,7 +176,6 @@ nav .breadcrumb .active {
     font-size: 1.333rem;
     text-transform: capitalize;
     text-decoration: overline;
-
 }
 .noticias main section .grid .card .card-footer .pag{
     color: #000;;
@@ -187,5 +184,17 @@ nav .breadcrumb .active {
 .noticias main section .grid .card .card-footer .ler{
     color: #f8f804;
 }
-
 /* NOTÍCIAS WEBPAGE ---------------------------- */
+
+
+/* CURRÍCULO WEBPAGE ---------------------------- */
+form .objetivo option{
+    text-transform: capitalize;
+}
+form .btn{
+    color: #000;
+    font-weight: bolder;
+    background-color: #f8f804;
+    text-transform: uppercase;
+}
+/* CURRÍCULO WEBPAGE ---------------------------- */
