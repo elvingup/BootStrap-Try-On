@@ -130,8 +130,8 @@ footer .row .card {
 }
 
 footer ul li {
+    text-align: left;
     text-transform: uppercase;
-    list-style: none;
 }
 
 footer aside p {
